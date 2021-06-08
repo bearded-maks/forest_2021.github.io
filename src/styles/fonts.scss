@@ -1,0 +1,15 @@
+@import './mixins.scss';
+
+@include font-face(
+  'Geakosa_Oblique_Outline',
+  /fonts/Geakosa_Oblique_Outline,
+  null,
+  woff,
+  ttf
+);
+
+@include font-face('Geakosa_Outline', /fonts/Geakosa_Outline, null, woff, ttf);
+@include font-face('Geakosa_Oblique', /fonts/Geakosa_Oblique, null, woff, ttf);
+@include font-face('Geakosa_Regular', /fonts/Geakosa_Regular, null, woff, ttf);
+@include font-face('BebasNeueBold', /fonts/BebasNeueBold, null, woff, ttf);
+// @include font-face('Geakosa', /fonts/Geakosa, bold, italic);
